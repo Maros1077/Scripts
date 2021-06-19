@@ -154,8 +154,11 @@ def showHelp():
     print(" 2) -d, -date")
     print("\tSpecifies dates of photos, that should be extracted. In a format <month.day>! (eg. \"-d 6.15 6.16\")")
     print("\tThis switch is optional. If not set, photos with today's date will be extracted.")
-    print(" 2) -h, -help")
+    print(" 3) -i, -info")
+    print("\tShows information about specified folders.")
+    print(" 4) -h, -help")
     print("\tYou are here :-)")
+
 
 
 def showInfo():
